@@ -35,6 +35,6 @@
 
     double res = ds.Calculate(x, y);
     double rounded_res = Math.Round(res, 3);
-    Console.WriteLine(res);
+    Console.WriteLine(rounded_res);
     Console.ReadLine();
 }
