@@ -12,7 +12,7 @@ namespace Tyuiu.MazurkevichVS.Sprint1.Task2.V1.Test
             int x = 2;
             var res = ds.ConvertKmToM(x);
             double rounded_res = Math.Round(res, 3);
-            Assert.AreEqual(1.243, rounded_res);
+            Assert.AreEqual(3.219, rounded_res);
 
         }
     }

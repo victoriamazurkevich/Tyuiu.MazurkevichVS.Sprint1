@@ -20,7 +20,7 @@
     Console.WriteLine("***************************************************************************");
 
     int x;
-    Console.WriteLine("Введите количество километров:");
+    Console.WriteLine("Введите количество милей:");
     x = Convert.ToInt32(Console.ReadLine());
 
     Console.WriteLine("***************************************************************************");
@@ -29,6 +29,6 @@
 
     double res = ds.ConvertKmToM(x);
     double rounded_res = Math.Round(res, 3);
-    Console.WriteLine("Количество милей: " + rounded_res);
+    Console.WriteLine("Количество километров: " + rounded_res);
     Console.ReadLine();
 }
