@@ -22,6 +22,6 @@ Console.WriteLine("*************************************************************
 Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
 Console.WriteLine("***************************************************************************");
 
-double z = Math.Round(ds.Calculate(x, y), 3);
+double z = ds.Calculate(x, y);
 Console.WriteLine(z);
 Console.ReadLine();
